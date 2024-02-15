@@ -1,0 +1,68 @@
+.container {
+    margin: 20px;
+}
+
+.input-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.input-field {
+    margin-right: 10px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.add-button,
+.remove-button,
+.submit-button,
+.clear-button {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.add-button {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.remove-button {
+    background-color: #dc3545;
+    color: #fff;
+}
+
+.submit-button {
+    margin-top: 20px;
+    background-color: #28a745;
+    color: #fff;
+}
+
+.clear-button {
+    margin-top: 20px;
+    margin-left: 20px;
+    background-color: #dc3545;
+    color: #fff;
+}
+
+.warning-message {
+    color: red;
+}
+
+.step-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.step-info {
+    margin-right: 10px;
+}
+
+.step-actions {
+    display: flex;
+    align-items: center;
+}
